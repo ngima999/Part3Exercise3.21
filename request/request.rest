@@ -1,0 +1,27 @@
+DELETE http://localhost:3001/api/persons/674db7c07636eb07defd5683
+
+###
+
+GET http://localhost:3001/api/persons
+
+####
+
+POST http://localhost:3001/api/persons 
+content-type: application/json
+
+{
+    "name": "Jeetu Nepal",
+    "number": "1234556"
+}
+
+
+####
+
+PUT http://localhost:3001/api/persons/674dda8d887c653059821956
+Content-Type: application/json
+
+{
+    "name": "Kir",
+    "number": "88888888"
+}
+
